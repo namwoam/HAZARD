@@ -13,8 +13,9 @@ from .policy.env_actions import (agent_walk_to, agent_pickup, agent_drop, agent_
 import logging
 
 PATH = os.path.dirname(os.path.abspath(__file__))
-while os.path.basename(PATH) != "HAZARD":
+while os.path.basename(PATH) != "src":
     PATH = os.path.dirname(PATH)
+PATH = os.path.dirname(PATH)
 
 
 def get_target_description(env):

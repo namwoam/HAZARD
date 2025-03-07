@@ -9,7 +9,7 @@ Yilun Du, Joshua B. Tenenbaum, Chuang Gan
     <a href='https://arxiv.org/abs/2401.12975'>
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
-    <a href='https://vis-www.cs.umass.edu/hazard/' style='padding-left: 0.5rem;'>
+    <a href='https://embodied-agi.cs.umass.edu/hazard' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
   </p>
@@ -18,7 +18,7 @@ Yilun Du, Joshua B. Tenenbaum, Chuang Gan
   </p>
 </p>
 
-**New**: The [leaderboard submission](documentation/get_started/submit.md#submit-to-the-leaderboard) is open now! 
+The [leaderboard submission](documentation/get_started/submit.md#submit-to-the-leaderboard) is closed now 
 
 ## Detailed documentations
 

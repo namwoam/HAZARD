@@ -84,7 +84,7 @@ Damage rate ...
 , where `Average value rate` is the Value metric, `Average step` is the step metric, and `Damage rate` is the Damage metric.
 
 ### Submit to the Leaderboard
-The leaderboard can be found at the bottom of the [HAZARD homepage]([https://vis-www.cs.umass.edu/hazard/](https://embodied-agi.cs.umass.edu/hazard/index.html#:~:text=10-,Leaderboard,-Name)).
+The leaderboard can be found at the bottom of the [HAZARD homepage](https://embodied-agi.cs.umass.edu/hazard/index.html#:~:text=10-,Leaderboard,-Name).
 You can submit the results on all fire, flood, and wind test episodes with a zip file.
 The content within the zip file needs to be organized as the following
 ```

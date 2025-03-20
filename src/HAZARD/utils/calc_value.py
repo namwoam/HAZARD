@@ -25,10 +25,10 @@ def get_values(taskname, scene, object_id, states):
     waterproof_dict = json.load(open("src/HAZARD/scenes/scene_configs/fluid.json"))
     value_dict = json.load(open("src/HAZARD/data/meta_data/value.json"))
     data_dir = data_dirs[taskname]
-    if os.path.exists(os.path.join("data", data_dir, "test_set", scene)):
-        scene_setup = SceneSetup(os.path.join("data", data_dir, "test_set", scene))
+    if os.path.exists(os.path.join("src/HAZARD/data", data_dir, "test_set", scene)):
+        scene_setup = SceneSetup(os.path.join("src/HAZARD/data", data_dir, "test_set", scene))
     else:
-        scene_setup = SceneSetup(os.path.join("data", data_dir, scene))
+        scene_setup = SceneSetup(os.path.join("src/HAZARD/data", data_dir, scene))
     # print(scene_setup.target_id2name, scene)
     name = scene_setup.target_id2name[object_id]
     if name in value_dict:

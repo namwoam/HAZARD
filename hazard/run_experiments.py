@@ -162,7 +162,7 @@ def submit(
         os.makedirs(output_dir)
     if data_dir == "":
         PATH = os.path.dirname(os.path.abspath(__file__))
-        while os.path.basename(PATH) != "HAZARD":
+        while os.path.basename(PATH) != "hazard":
             PATH = os.path.dirname(PATH)
         data_dir = DATA_DIR[env_name]
         data_dir = os.path.join(PATH, "data", data_dir)

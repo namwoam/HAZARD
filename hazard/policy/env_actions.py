@@ -1,7 +1,7 @@
 import sys
 import os
 PATH = os.path.dirname(os.path.abspath(__file__))
-while os.path.basename(PATH) != "HAZARD":
+while os.path.basename(PATH) != "hazard":
     PATH = os.path.dirname(PATH)
 sys.path.append(PATH)
 
@@ -9,7 +9,7 @@ from typing import List, Union, Optional
 import numpy as np
 from tdw.replicant.ik_plans.ik_plan_type import IkPlanType
 from tdw.replicant.action_status import ActionStatus
-from src.HAZARD.policy.astar import get_astar_path, get_astar_weight
+from hazard.policy.astar import get_astar_path, get_astar_weight
 from tdw.tdw_utils import TDWUtils
 from tdw.replicant.arm import Arm
 

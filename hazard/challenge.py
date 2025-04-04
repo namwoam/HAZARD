@@ -13,7 +13,7 @@ from hazard.policy.env_actions import (agent_walk_to, agent_pickup, agent_drop, 
 import logging
 
 PATH = os.path.dirname(os.path.abspath(__file__))
-while os.path.basename(PATH) != "src":
+while os.path.basename(PATH) != "hazard":
     PATH = os.path.dirname(PATH)
 PATH = os.path.dirname(PATH)
 

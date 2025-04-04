@@ -1,4 +1,4 @@
-from typing import Any, Tuple, Dict
+from typing import Any, Tuple, Dict, List, Union
 from tdw.add_ons.third_person_camera import ThirdPersonCamera
 from tdw.librarian import HumanoidLibrarian
 from tdw.add_ons.logger import Logger
@@ -9,12 +9,14 @@ from tdw.output_data import OutputData, Images
 from tdw.scene_data.scene_bounds import SceneBounds
 from tdw.obi_data.fluids.cube_emitter import CubeEmitter
 from tdw.add_ons.obi import Obi
+from tdw.replicant.actions.action import ActionStatus
 
 import numpy as np
 import cv2
 import copy
 import os
 
+from hazard.envs.fire.agent import FireAgent
 from hazard.envs.fire.object import ObjectStatus
 from hazard.envs.fire.fire_utils import *
 from hazard.envs.fire.fire import FireController

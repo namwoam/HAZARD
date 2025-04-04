@@ -3,8 +3,8 @@ import torch.nn as nn
 from typing import List, Optional
 import numpy as np
 
-from src.HAZARD.utils.distributions import Categorical, DiagGaussian
-from src.HAZARD.utils.model_utils import Flatten, NNBase
+from hazard.utils.distributions import Categorical, DiagGaussian
+from hazard.utils.model_utils import Flatten, NNBase
 
 class Goal_Oriented_Semantic_Policy(NNBase):
 

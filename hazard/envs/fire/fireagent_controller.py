@@ -174,7 +174,7 @@ class FireAgentController(FireController):
 
         temperature_record = dict()
         with open(
-            os.path.join(PATH, "data", "meta_data", "temperature.json"), "r"
+            os.path.join(PATH, "hazard", "data", "meta_data", "temperature.json"), "r"
         ) as f:
             L = json.load(f)
             for data in L:
